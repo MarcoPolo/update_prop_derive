@@ -1,0 +1,15 @@
+[package]
+name = "update_prop_derive"
+version = "0.1.0"
+authors = ["Marco Munizaga <marco@marcopolo.io>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1.0.2"
+
+[dependencies.syn]
+version = "1.0.4"
+features = ["derive", "extra-traits"]
